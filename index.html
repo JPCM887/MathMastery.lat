@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MathMastery - Plataforma educativa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f0f2f5; color: #222; }
+    header, footer { background: #002244; color: white; text-align: center; padding: 2rem; }
+    nav { background: #003366; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; max-width: 1000px; margin: auto; }
+    h2 { color: #003366; }
+    iframe { width: 100%; height: 315px; margin: 1rem 0; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin: 10px 0; }
+    a.external { color: #0066cc; text-decoration: none; }
+    .btn-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-decoration: none;
+    }
+    form { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 10px 20px; background: #003366; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MathMastery</h1>
+    <p>Plataforma para apoyar a estudiantes del Colegio América de Puebla</p>
+  </header>
+
+  <nav>
+    <a href="#videos">Videos</a>
+    <a href="#guias">Nuestros Guías</a>
+    <a href="#recursos">Guías externas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="videos">
+    <h2>Videos educativos</h2>
+    <p><strong>Operaciones con enteros:</strong></p><iframe src="https://www.youtube.com/embed/Jk13aPpnu6A"></iframe>
+    <p><strong>Ley de los signos:</strong></p><iframe src="https://www.youtube.com/embed/s8pT7N6E7n0"></iframe>
+    <p><strong>Álgebra básica:</strong></p><iframe src="https://www.youtube.com/embed/X6F-NDgJ2UQ"></iframe>
+    <p><strong>Ecuaciones de primer grado:</strong></p><iframe src="https://www.youtube.com/embed/HApvHf6zL0k"></iframe>
+    <p><strong>Factorización:</strong></p><iframe src="https://www.youtube.com/embed/FcJ-L9g1ULk"></iframe>
+    <p><strong>Funciones básicas:</strong></p><iframe src="https://www.youtube.com/embed/UmUCDQXkGVw"></iframe>
+    <p><strong>Función lineal:</strong></p><iframe src="https://www.youtube.com/embed/6b4U9CIUxtU"></iframe>
+    <p><strong>Medidas de tendencia central:</strong></p><iframe src="https://www.youtube.com/embed/fVKP7owzTng"></iframe>
+    <p><strong>Tablas de frecuencia:</strong></p><iframe src="https://www.youtube.com/embed/ST1sBXxF6B0"></iframe>
+    <p><strong>Probabilidad básica:</strong></p><iframe src="https://www.youtube.com/embed/-ubA2vbnRwM"></iframe>
+    <p><strong>Razones trigonométricas:</strong></p><iframe src="https://www.youtube.com/embed/XsOB3P3F2HI"></iframe>
+  </section>
+
+  <section id="guias">
+    <h2>Nuestros Guías</h2>
+    <p><strong>Juan Pablo Castillo y Aron Enrique:</strong> Apasionados por enseñar y acompañarte paso a paso.</p>
+    <p><strong>Gabriel Genaro:</strong> Estudiante brillante que te ayudará a comprender cualquier tema.</p>
+  </section>
+
+  <section id="recursos">
+    <h2>Guías y recursos externos</h2>
+    <ul>
+      <li><a class="external" href="https://es.khanacademy.org/math" target="_blank">Khan Academy en español</a></li>
+      <li><a class="external" href="https://www.vitutor.com/" target="_blank">Vitutor</a></li>
+      <li><a class="external" href="https://www.youtube.com/user/math2me" target="_blank">Math2me (YouTube)</a></li>
+      <li><a class="external" href="https://www.youtube.com/user/profesor10demates" target="_blank">Profesor10demates</a></li>
+      <li><a class="external" href="https://www.malmath.com/" target="_blank">Malmath - App paso a paso</a></li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form action="https://formspree.io/f/maykqgwb" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 MathMastery | Desarrollado para estudiantes del Colegio América de Puebla</p>
+  </footer>
+
+  <a class="btn-whatsapp" href="https://wa.me/522228954743" target="_blank" title="Escríbenos por WhatsApp">💬</a>
+</body>
+</html>
